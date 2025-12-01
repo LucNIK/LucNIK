@@ -1,0 +1,27 @@
+name: GitHub Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # mise à jour automatique tous les jours à minuit
+  workflow_dispatch:       # permet de déclencher manuellement
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate GitHub Snake (day)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=F3BA2F  # jaune Binance
+
+      - name: Generate GitHub Snake (night)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake-dark.svg?color_snake=800020  # rouge bordeaux
+          args: "--palette github-dark"
