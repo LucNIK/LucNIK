@@ -2,20 +2,6 @@
 <!-- ====== All rights reserved to John Luke NIKABOU | 2025 ====== -->
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
 
-<!-- Metrics Profil GitHub -->
-<p align="center">
-
-<picture>
-  <!-- Mode nuit -->
-  <source media="(prefers-color-scheme: dark)" srcset="https://metrics.lecoq.io/LucNIK?template=classic&plugins=stars,commits,calendar,activity,languages&hide_border=true&theme=dark&show_icons=true" />
-  <!-- Mode jour -->
-  <source media="(prefers-color-scheme: light)" srcset="https://metrics.lecoq.io/LucNIK?template=classic&plugins=stars,commits,calendar,activity,languages&hide_border=true&theme=light&show_icons=true" />
-  <!-- fallback -->
-  <img alt="GitHub Metrics" src="https://metrics.lecoq.io/LucNIK?template=classic&plugins=stars,commits,calendar,activity,languages&hide_border=true&theme=light&show_icons=true" />
-</picture>
-
-</p>
-
 
 
 <p align="right">
@@ -47,12 +33,3 @@
     <img alt="GitHub Snake" src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-day.gif">
   </picture>
 </p>
-
-
-## ⚙️ Productivity Heatmap
-
-<div align="center">
-  
-![GitHub Heatmap](https://github-readme-activity-graph.vercel.app/graph?username=LucNIK&theme=react-dark&hide_border=true)
-
-</div>
