@@ -33,3 +33,6 @@
     <img alt="GitHub Snake" src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-day.gif">
   </picture>
 </p>
+
+![GitHub Metrics](./github-metrics.svg)
+
