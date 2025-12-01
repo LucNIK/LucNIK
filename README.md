@@ -27,7 +27,6 @@
   </picture>
 </p>
 
-
 ## ⚙️ Productivity Heatmap
 
 <div align="center">
