@@ -2,7 +2,7 @@ name: GitHub Snake GIF Colorized
 
 on:
   schedule:
-    - cron: "0 0 * * *" # tous les jours à minuit
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,25 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2️⃣ Générer GIF mode jour (jaune Binance)
+      # Snake jaune Binance (jour), cases gris par défaut
       - name: Generate GitHub Snake GIF (day)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-day.gif?color_snake=%23F3BA2F&color_dots=%23F3BA2F,%23F3BA2F,%23F3BA2F,%23F3BA2F,%23F3BA2F&color_background=%23FFFFFF
+          outputs: dist/github-snake-day.gif?color_snake=%23F3BA2F&color_background=%23FFFFFF
 
-      # 3️⃣ Générer GIF mode nuit (rouge bordeaux)
+      # Snake rouge bordeaux (nuit), cases gris foncé par défaut
       - name: Generate GitHub Snake GIF (night)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-night.gif?color_snake=%23800020&color_dots=%23800020,%23800020,%23800020,%23800020,%23800020&color_background=%23000000
+          outputs: dist/github-snake-night.gif?color_snake=%23800020&color_background=%23000000
 
-      # 4️⃣ Commit automatique des fichiers générés
+      # Commit automatique
       - name: Commit generated GIFs
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
