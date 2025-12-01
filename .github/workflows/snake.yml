@@ -10,25 +10,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout du repo
       - uses: actions/checkout@v3
 
+      # 2️⃣ Générer le Snake pour le mode jour (jaune Binance)
       - name: Generate GitHub Snake (day)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake.svg?color_snake=F3BA2F
+          outputs: dist/github-snake.svg
+          args: "--color_snake F3BA2F"
 
+      # 3️⃣ Générer le Snake pour le mode nuit (rouge bordeaux)
       - name: Generate GitHub Snake (night)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-dark.svg?color_snake=800020
-          args: --palette github-dark
+          outputs: dist/github-snake-dark.svg
+          args: "--color_snake 800020 --palette github-dark"
 
+      # 4️⃣ Commit et push des fichiers générés
       - name: Commit generated files
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p dist
           git add dist/
           git commit -m "Add generated GitHub Snake SVGs" || echo "No changes to commit"
           git push
