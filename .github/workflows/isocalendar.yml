@@ -11,8 +11,10 @@ jobs:
 
     steps:
       # 1️⃣ Checkout repository
-      - name: Checkout repository
-        uses: actions/checkout@v3
+
+        - name: Generate Metrics IsoCalendar
+  uses: lowlighter/metrics@latest
+
 
       # 2️⃣ Generate GitHub Metrics with IsoCalendar plugin
       - name: Generate Metrics IsoCalendar
