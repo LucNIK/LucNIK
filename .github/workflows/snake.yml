@@ -12,22 +12,21 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Snake jour
+      # Snake mode jour (jaune Binance)
       - name: Generate GitHub Snake (day)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-snake.svg?color_snake=F3BA2F
 
-      # Snake nuit
+      # Snake mode nuit (rouge bordeaux)
       - name: Generate GitHub Snake (night)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-snake-dark.svg?color_snake=800020
-          args: --palette github-dark
 
-      # Commit & push
+      # Commit & push automatique
       - name: Commit generated files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
