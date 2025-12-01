@@ -27,41 +27,27 @@ AI • Web3 • Data Systems • Encryption • Cloud Architecture
 <div align="center">
 
 ### 🔹 Programming Languages  
-[![Python](https://skillicons.dev/icons?i=python)]()  [![Java](https://skillicons.dev/icons?i=java)]()  
-[![C++](https://skillicons.dev/icons?i=cpp)]()  
-[![PHP](https://skillicons.dev/icons?i=php)]()  
-[![JavaScript](https://skillicons.dev/icons?i=js)]()  
-[![TypeScript](https://skillicons.dev/icons?i=ts)]()
+[![Python](https://skillicons.dev/icons?i=python)]()  [![Java](https://skillicons.dev/icons?i=java)]()  [![C++](https://skillicons.dev/icons?i=cpp)]()  [![PHP](https://skillicons.dev/icons?i=php)]()  [![JavaScript](https://skillicons.dev/icons?i=js)]()  [![TypeScript](https://skillicons.dev/icons?i=ts)]()
 
 ---
 
 ### 🔹 Frameworks & Platforms  
-[![Next.js](https://skillicons.dev/icons?i=nextjs)]()  
-[![Laravel](https://skillicons.dev/icons?i=laravel)]()  
-[![Flutter](https://skillicons.dev/icons?i=flutter)]()
+[![Next.js](https://skillicons.dev/icons?i=nextjs)]()  [![Laravel](https://skillicons.dev/icons?i=laravel)]()  [![Flutter](https://skillicons.dev/icons?i=flutter)]()
 
 ---
 
 ### 🔹 AI, Data & Big Data  
-[![TensorFlow](https://skillicons.dev/icons?i=tensorflow)]()  
-[![PyTorch](https://skillicons.dev/icons?i=pytorch)]()  
-[![Pandas](https://skillicons.dev/icons?i=pandas)]()  
-[![Hadoop](https://skillicons.dev/icons?i=hadoop)]()  
-[![Spark](https://skillicons.dev/icons?i=spark)]()
+[![TensorFlow](https://skillicons.dev/icons?i=tensorflow)]()  [![PyTorch](https://skillicons.dev/icons?i=pytorch)]()  [![Pandas](https://skillicons.dev/icons?i=pandas)]()  [![Hadoop](https://skillicons.dev/icons?i=hadoop)]()  [![Spark](https://skillicons.dev/icons?i=spark)]()
 
 ---
 
 ### 🔹 Databases  
-[![MySQL](https://skillicons.dev/icons?i=mysql)]()  
-[![PostgreSQL](https://skillicons.dev/icons?i=postgres)]()  
-[![Supabase](https://skillicons.dev/icons?i=supabase)]()
+[![MySQL](https://skillicons.dev/icons?i=mysql)]()  [![PostgreSQL](https://skillicons.dev/icons?i=postgres)]()  [![Supabase](https://skillicons.dev/icons?i=supabase)]()
 
 ---
 
 ### 🔹 Blockchain, Security & Cryptography  
-[![Solidity](https://skillicons.dev/icons?i=solidity)]()  
-[![Ethereum](https://skillicons.dev/icons?i=ethereum)]()  
-[![Security](https://skillicons.dev/icons?i=lock)]()
+[![Solidity](https://skillicons.dev/icons?i=solidity)]()  [![Ethereum](https://skillicons.dev/icons?i=ethereum)]()  [![Security](https://skillicons.dev/icons?i=lock)]()
 
 </div>
 
