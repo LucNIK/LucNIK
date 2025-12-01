@@ -13,21 +13,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Snake jaune Binance (jour), cases gris par défaut
+      # Snake + activités jaune Binance (jour)
       - name: Generate GitHub Snake GIF (day)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-day.gif?color_snake=%23F3BA2F&color_background=%23FFFFFF
+          outputs: dist/github-snake-day.gif?color_snake=%23F3BA2F&color_dots=%23CCCCCC,%23F3BA2F,%23F3BA2F,%23F3BA2F,%23F3BA2F&color_background=%23FFFFFF
 
-      # Snake rouge bordeaux (nuit), cases gris foncé par défaut
+      # Snake + activités rouge bordeaux (nuit)
       - name: Generate GitHub Snake GIF (night)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-night.gif?color_snake=%23800020&color_background=%23000000
+          outputs: dist/github-snake-night.gif?color_snake=%23800020&color_dots=%23444444,%23800020,%23800020,%23800020,%23800020&color_background=%23000000
 
-      # Commit automatique
       - name: Commit generated GIFs
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
