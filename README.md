@@ -20,10 +20,18 @@
 
 <p align="center">
   <picture>
+    <!-- Mode sombre -->
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/mon-profil/main/dist/github-snake-dark.svg">
+    <!-- Mode clair -->
     <img src="https://raw.githubusercontent.com/LucNIK/mon-profil/main/dist/github-snake.svg" alt="GitHub Snake">
   </picture>
 </p>
+
+<!-- Badge Profile Views à droite -->
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=for-the-badge" alt="Profile Views">
+</p>
+
 
 
 ## ⚙️ Productivity Heatmap
