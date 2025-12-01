@@ -27,10 +27,6 @@
   </picture>
 </p>
 
-<!-- Badge Profile Views à droite -->
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=for-the-badge" alt="Profile Views">
-</p>
 
 
 
