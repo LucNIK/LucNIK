@@ -1,9 +1,0 @@
-- uses: lowlighter/metrics@v3
-  with:
-    github_token: ${{ secrets.GITHUB_TOKEN }}
-    filename: dist/github-metrics.svg
-    config: |
-      templates:
-        - classic
-      plugins:
-        - isocalendar.fullyear
