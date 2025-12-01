@@ -21,11 +21,12 @@
 <p align="center">
   <picture>
     <!-- Mode sombre -->
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/NOM_DU_DEPOT/main/dist/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-dark.svg">
     <!-- Mode clair -->
-    <img src="https://raw.githubusercontent.com/LucNIK/NOM_DU_DEPOT/main/dist/github-snake.svg" alt="GitHub Snake">
+    <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake.svg" alt="GitHub Snake">
   </picture>
 </p>
+
 
 
 ## ⚙️ Productivity Heatmap
