@@ -13,33 +13,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Générer le Snake (noir par défaut)
+      # Générer le Snake (temp noir)
       - name: Generate GitHub Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-snake-temp.svg
 
-      # Installer Node.js pour script de post-traitement
+      # Installer Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
 
-      # Script pour remplacer les couleurs selon mode jour/nuit
+      # Coloriser le Snake et le carré
       - name: Colorize Snake SVGs
-        run: |
-          mkdir -p dist
+        run: node colorize.js
 
-          # Snake jour (jaune Binance)
-          cp dist/github-snake-temp.svg dist/github-snake.svg
-          sed -i 's/#000000/F3BA2F/g' dist/github-snake.svg
-
-          # Snake nuit (rouge bordeaux)
-          cp dist/github-snake-temp.svg dist/github-snake-dark.svg
-          sed -i 's/#000000/800020/g' dist/github-snake-dark.svg
-
-      # Commit & push les fichiers modifiés
+      # Commit & push automatique
       - name: Commit generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
