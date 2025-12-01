@@ -36,8 +36,6 @@
 
 <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" alt="GitHub Metrics">
 
-<img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics-isocalendar.svg" alt="GitHub Iso Calendar">
-
 
 
 
