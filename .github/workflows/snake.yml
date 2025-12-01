@@ -10,27 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Récupérer le repo
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Générer le Snake (temp noir)
-      - name: Generate GitHub Snake
+      # 2️⃣ Générer le Snake (mode jour, jaune Binance)
+      - name: Generate GitHub Snake (day)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-temp.svg
+          outputs: dist/github-snake.svg?color_snake=F3BA2F&color_dots=F3BA2F,F3BA2F,F3BA2F,F3BA2F,F3BA2F
 
-      # Installer Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      # 3️⃣ Générer le Snake (mode nuit, rouge bordeaux)
+      - name: Generate GitHub Snake (night)
+        uses: Platane/snk@v3
         with:
-          node-version: '20'
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/github-snake-dark.svg?palette=github-dark&color_snake=800020&color_dots=800020,800020,800020,800020,800020
 
-      # Coloriser le Snake et le carré
-      - name: Colorize Snake SVGs
-        run: node colorize.js
-
-      # Commit & push automatique
+      # 4️⃣ Commit automatique des fichiers générés
       - name: Commit generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
