@@ -5,23 +5,6 @@
 </p>
 
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
-<h3 align="center">Software Engineer & AI/Blockchain Developer</h3>
-
----
-
-## 🚀 About Me
-
-🔹 Passionate Software Engineer building advanced systems across AI, Blockchain, Cloud & Mobile  
-🔹 Currently building:  
-- a multi-OS smartwatch app ecosystem (Apple Watch + Wear OS)  
-- a complete blockchain-based credentialing system (NFT badges, smart contracts, Web3 recruitment platform)  
-- sentiment analysis dashboards and machine learning applications  
-
-🔹 Focused on:  
-AI • Web3 • Data Systems • Encryption • Cloud Architecture
-
----
-
 
 <p align="center">
 🧠 Tech Stack
