@@ -22,7 +22,10 @@ AI • Web3 • Data Systems • Encryption • Cloud Architecture
 
 ---
 
-## 🧠 Tech Stack
+
+<p align="center">
+🧠 Tech Stack
+</p>
 
 <div align="center">
 
