@@ -35,6 +35,8 @@
 </p>
 
 <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" alt="GitHub Metrics">
+<img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" alt="GitHub Metrics Full-Year Calendar">
+
 
 
 
