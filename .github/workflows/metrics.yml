@@ -16,3 +16,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: github-metrics.svg
           # tu peux ajouter des options ici (plugins, template, etc.)
+
+
+- uses: lowlighter/metrics@v3
+  with:
+    github_token: ${{ secrets.GITHUB_TOKEN }}
+    filename: dist/github-metrics.svg
+    config: |
+      templates:
+        - classic
+      plugins:
+        - isocalendar.fullyear
