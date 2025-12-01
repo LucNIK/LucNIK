@@ -2,40 +2,32 @@ name: GitHub Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # mise à jour automatique tous les jours à minuit
-  workflow_dispatch:      # permet de déclencher manuellement
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout du repo
       - uses: actions/checkout@v3
 
-      # 2️⃣ Installer Node.js (nécessaire pour Platane/snk)
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      # 3️⃣ Générer le Snake pour le mode jour (jaune Binance)
+      # Snake jour
       - name: Generate GitHub Snake (day)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake.svg
-          args: "--color_snake F3BA2F"
+          outputs: dist/github-snake.svg?color_snake=F3BA2F
 
-      # 4️⃣ Générer le Snake pour le mode nuit (rouge bordeaux)
+      # Snake nuit
       - name: Generate GitHub Snake (night)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-dark.svg
-          args: "--color_snake 800020 --palette github-dark"
+          outputs: dist/github-snake-dark.svg?color_snake=800020
+          args: --palette github-dark
 
-      # 5️⃣ Commit et push des fichiers générés
+      # Commit & push
       - name: Commit generated files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
