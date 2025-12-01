@@ -1,8 +1,8 @@
-name: GitHub Snake
+name: GitHub Snake Colorized
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # tous les jours à minuit
   workflow_dispatch:
 
 jobs:
@@ -10,26 +10,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      # Snake jour (jaune Binance)
-      - name: Generate GitHub Snake (day)
+      # Générer le Snake (noir par défaut)
+      - name: Generate GitHub Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake.svg?color_snake=F3BA2F&color_food=F3BA2F
+          outputs: dist/github-snake-temp.svg
 
-      # Snake nuit (rouge bordeaux)
-      - name: Generate GitHub Snake (night)
-        uses: Platane/snk@v3
+      # Installer Node.js pour script de post-traitement
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-dark.svg?color_snake=800020&color_food=800020
+          node-version: '20'
 
-      # Commit & push automatique
-      - name: Commit generated files
+      # Script pour remplacer les couleurs selon mode jour/nuit
+      - name: Colorize Snake SVGs
+        run: |
+          mkdir -p dist
+
+          # Snake jour (jaune Binance)
+          cp dist/github-snake-temp.svg dist/github-snake.svg
+          sed -i 's/#000000/F3BA2F/g' dist/github-snake.svg
+
+          # Snake nuit (rouge bordeaux)
+          cp dist/github-snake-temp.svg dist/github-snake-dark.svg
+          sed -i 's/#000000/800020/g' dist/github-snake-dark.svg
+
+      # Commit & push les fichiers modifiés
+      - name: Commit generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Add generated GitHub Snake SVGs with color_food"
+          commit_message: "Add colorized GitHub Snake SVGs"
           branch: main
           file_pattern: dist/
