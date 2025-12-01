@@ -30,8 +30,6 @@ AI • Web3 • Data Systems • Encryption • Cloud Architecture
 [![JavaScript](https://skillicons.dev/icons?i=js)]()  
 [![TypeScript](https://skillicons.dev/icons?i=ts)]()
 
----
-
 ### 🔹 Frameworks & Platforms  
 [![Next.js](https://skillicons.dev/icons?i=nextjs)]()  
 [![Laravel](https://skillicons.dev/icons?i=laravel)]()  
