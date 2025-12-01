@@ -6,7 +6,7 @@
 
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
 
-<div align="right">![Visitors](https://visitor-badge.laobi.icu/badge?page_id=LucNIK)</div>
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=LucNIK)
 
 
 <p align="center">
