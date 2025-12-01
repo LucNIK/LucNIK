@@ -18,7 +18,13 @@
 
 </div>
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/mon-profil/main/dist/github-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/LucNIK/mon-profil/main/dist/github-snake.svg" alt="GitHub Snake">
+  </picture>
+</p>
+
 
 ## ⚙️ Productivity Heatmap
 
