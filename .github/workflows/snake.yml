@@ -2,12 +2,13 @@ name: GitHub Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # mise à jour automatique tous les jours à minuit
-  workflow_dispatch:       # permet de déclencher manuellement
+    - cron: "0 0 * * *"  # tous les jours à minuit
+  workflow_dispatch:      # permet de déclencher manuellement
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
@@ -15,21 +16,19 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=F3BA2F  # jaune Binance
+          outputs: dist/github-snake.svg?color_snake=F3BA2F
 
       - name: Generate GitHub Snake (night)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake-dark.svg?color_snake=800020  # rouge bordeaux
-          args: "--palette github-dark"
-                - name: Commit generated files
+          outputs: dist/github-snake-dark.svg?color_snake=800020
+          args: --palette github-dark
+
+      - name: Commit generated files
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add dist/
           git commit -m "Add generated GitHub Snake SVGs" || echo "No changes to commit"
           git push
-
