@@ -1,7 +1,10 @@
 <!-- ====== DARK HACKER BANNER WILL BE INSERTED HERE ====== -->
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
 
-![Profile Views](https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=for-the-badge)
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=for-the-badge" alt="Profile Views">
+</p>
+
 
 
 
