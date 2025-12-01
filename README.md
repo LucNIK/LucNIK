@@ -23,18 +23,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=LucNIK&show_icons=true&theme=radical&hide_title=true&hide_border=true&count_private=true)
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LucNIK&layout=compact&theme=radical&hide_border=true)
-
-</div>
-
----
-
 ## ⚙️ Productivity Heatmap
 
 <div align="center">
