@@ -26,15 +26,3 @@
 ![GitHub Heatmap](https://github-readme-activity-graph.vercel.app/graph?username=LucNIK&theme=react-dark&hide_border=true)
 
 </div>
-
----
-
-## 📬 Contact Me
-
-📧 Email — *add your email here*  
-💼 LinkedIn — *add your LinkedIn here*  
-🌐 Portfolio coming soon…
-
----
-
-### ⭐ If you like my projects, consider giving a star on my repositories!
