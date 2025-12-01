@@ -23,7 +23,7 @@ AI • Web3 • Data Systems • Encryption • Cloud Architecture
 <div align="center">
 
 ### 🔹 Programming Languages  
-[![Python](https://skillicons.dev/icons?i=python)]  
+[![Python](https://skillicons.dev/icons?i=python)[Java](https://skillicons.dev/icons?i=java)]() 
 [![Java](https://skillicons.dev/icons?i=java)]()  
 [![C++](https://skillicons.dev/icons?i=cpp)]()  
 [![PHP](https://skillicons.dev/icons?i=php)]()  
