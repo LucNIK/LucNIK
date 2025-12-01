@@ -1,0 +1,18 @@
+name: Generate GitHub Metrics
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # chaque jour à minuit
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output: github-metrics.svg
+          # tu peux ajouter des options ici (plugins, template, etc.)
