@@ -3,16 +3,22 @@
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
 
 
-<!-- BANNIÈRE THEME DYNAMIQUE -->
+<p align="right">
+
+<!-- MODE NUIT -->
 <picture>
-  <!-- MODE NUIT -->
-  <source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/vJoFKpL.gif">
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=800020&style=plastic" />
 
   <!-- MODE JOUR -->
-  <source media="(prefers-color-scheme: light)" srcset="https://i.imgur.com/6TEZ1mc.gif">
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=plastic" />
 
-  <img src="https://i.imgur.com/vJoFKpL.gif" alt="Dynamic Web3 Banner">
+  <img src="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=plastic" />
 </picture>
+
+</p>
+
 
 
 
