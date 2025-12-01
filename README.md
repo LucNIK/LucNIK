@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
-
+![Profile Views](https://komarev.com/ghpvc/?username=LucNIK&color=00BFFF&style=for-the-badge)
 <p align="center">
 🧠 Tech Stack
 </p>
