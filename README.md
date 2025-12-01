@@ -4,25 +4,6 @@
 
 
 <p align="right">
-
-<!-- MODE NUIT -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-          srcset="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=800020&style=plastic" />
-
-  <!-- MODE JOUR -->
-  <source media="(prefers-color-scheme: light)"
-          srcset="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=plastic" />
-
-  <img src="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=plastic" />
-</picture>
-
-</p>
-
-
-
-
-<p align="right">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=LucNIK&label=%F0%9F%91%81+PROFILE&color=800020&style=for-the-badge" />
     <source media="(prefers-color-scheme: light)" srcset="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=for-the-badge" />
