@@ -1,9 +1,4 @@
 <!-- ====== DARK HACKER BANNER WILL BE INSERTED HERE ====== -->
-
-<p align="center">
-  <img src="https://i.ibb.co/cYwVS4h/hacker-banner-LucNIK.png" alt="Luc NIK Hacker Banner" />
-</p>
-
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=LucNIK)
