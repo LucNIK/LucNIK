@@ -23,10 +23,10 @@
     <!-- Mode sombre -->
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-dark.svg">
     <!-- Mode clair -->
-    <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake.svg" alt="GitHub Snake">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake.svg">
+    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake.svg">
   </picture>
 </p>
-
 
 ## ⚙️ Productivity Heatmap
 
