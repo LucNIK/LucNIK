@@ -3,9 +3,17 @@
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
 
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3500&pause=500&color=F3BA2F&center=true&width=700&lines=LucNIK+%7C+AI+%26+Web3+Engineer;Building+Futuristic+Systems;Blockchain+%7C+Smart+Contracts+%7C+AI" alt="Typing SVG" />
-</p>
+<!-- BANNIÈRE THEME DYNAMIQUE -->
+<picture>
+  <!-- MODE NUIT -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/vJoFKpL.gif">
+
+  <!-- MODE JOUR -->
+  <source media="(prefers-color-scheme: light)" srcset="https://i.imgur.com/6TEZ1mc.gif">
+
+  <img src="https://i.imgur.com/vJoFKpL.gif" alt="Dynamic Web3 Banner">
+</picture>
+
 
 
 <p align="right">
