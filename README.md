@@ -2,6 +2,12 @@
 <!-- ====== All rights reserved to John Luke NIKABOU | 2025 ====== -->
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
 
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3500&pause=500&color=F3BA2F&center=true&width=700&lines=LucNIK+%7C+AI+%26+Web3+Engineer;Building+Futuristic+Systems;Blockchain+%7C+Smart+Contracts+%7C+AI" alt="Typing SVG" />
+</p>
+
+
 <p align="right">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=LucNIK&label=%F0%9F%91%81+PROFILE&color=800020&style=for-the-badge" />
