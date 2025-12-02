@@ -16,5 +16,20 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: github-metrics.svg
           # tu peux ajouter des options ici (plugins, template, etc.)
+          # Most used languages
+            languages:
+              enabled: true
+              details: bytes-size, percentage
+              threshold: 1%
+              hide:
+                - html
+                - css
+
+            # LeetCode
+            leetcode:
+              enabled: true
+              user: LucNIK
+              sections: solved, skills, recent
+
 
 
