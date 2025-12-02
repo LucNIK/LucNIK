@@ -35,6 +35,6 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="45%">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/self-intro.png" width="45%">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="60%">
+  
 </p>
