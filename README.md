@@ -24,7 +24,7 @@
 
 </div>
 
-<p align="center">
+<p align="justify">
   <picture>
     <!-- Mode sombre -->
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-night.gif">
