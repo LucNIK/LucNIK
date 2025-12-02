@@ -34,7 +34,7 @@
   </picture>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="60%">
+<p align="left">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="25%">
   
 </p>
