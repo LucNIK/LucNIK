@@ -40,7 +40,6 @@
 </p>
 
 <p>
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.leetcode.svg" width="48%">
   <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg" width="48%">
 </p>
 
