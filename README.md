@@ -34,13 +34,12 @@
   </picture>
 </p>
 
-<p  width="100%">
+<p  align="center">
+    <picture>
   <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg">
   <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg">
-</p>
-
-<p>
   <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg">
+        </picture>
 </p>
 
 
