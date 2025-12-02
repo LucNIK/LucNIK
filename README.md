@@ -36,6 +36,19 @@
 
 <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" alt="GitHub Metrics">
 
+<!-- METRICS MAIN -->
+<img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" alt="GitHub Metrics">
+
+<!-- MOST USED LANGUAGES -->
+<img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg" alt="Most Used Languages">
+
+<!-- LEETCODE -->
+<img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.leetcode.svg" alt="LeetCode Statistics">
+
+<!-- ISOCALENDAR FULL YEAR -->
+<img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg" alt="Isocalendar Full Year">
+
+
 
 
 
