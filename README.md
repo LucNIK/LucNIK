@@ -34,3 +34,25 @@
   </picture>
 </p>
 
+<table width="100%">
+  <tr>
+    <!-- Colonne metrics -->
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" alt="GitHub Metrics" width="100%">
+    </td>
+
+    <!-- Colonne self-intro -->
+    <td width="50%" valign="top">
+      <h2>👋 Hi, I'm <strong>Luc NIK</strong></h2>
+      <p>
+        I am a <strong>Software Engineer & AI/Blockchain Developer</strong>, passionate about 
+        <span style="color:#FF9900;">Web3</span>, smart contracts, and building interactive GitHub profiles.
+      </p>
+      <p>
+        Here you'll find my <span style="color:#FF9900;">projects</span>, <span style="color:#FF9900;">achievements</span>, 
+        and <span style="color:#FF9900;">daily coding activity</span>.  
+        Welcome to my futuristic GitHub!
+      </p>
+    </td>
+  </tr>
+</table>
