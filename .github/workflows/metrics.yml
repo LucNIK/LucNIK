@@ -34,21 +34,21 @@ jobs:
            #plugin_isocalendar_duration: full-year
 
           # 🈷️ Most used languages
-          plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 8
-          plugin_languages_recent_days: 30
-          plugin_languages_recent_load: 500
+          #plugin_languages: yes
+          #plugin_languages_ignored: html, css
+          #plugin_languages_indepth: yes
+          #plugin_languages_limit: 8
+          #plugin_languages_recent_days: 30
+          #plugin_languages_recent_load: 500
 
           # 🌟 Achievements
            #plugin_achievements: yes
            #plugin_achievements_threshold: C
 
           # ⭐ Stargazers
-          plugin_stargazers: yes
-          plugin_stargazers_charts: yes
-          plugin_stargazers_worldmap: no
+          #plugin_stargazers: yes
+          #plugin_stargazers_charts: yes
+          #plugin_stargazers_worldmap: no
 
           # 💬 Comment reactions
            #plugin_reactions: yes
