@@ -34,10 +34,5 @@
   </picture>
 </p>
 
-<p align="center" style="width:100%; display:flex; justify-content:center; flex-wrap:wrap;">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" style="flex:1; max-width:25%; height:auto;" alt="GitHub Metrics">
-</p>
-
-
 
 
