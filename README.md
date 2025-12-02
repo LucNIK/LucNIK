@@ -34,16 +34,27 @@
   </picture>
 </p>
 
-<p>
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" width="50%">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg" width="50%">
-   <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.leetcode.svg" width="48%">
-</p>
+<table width="100%">
+  <tr>
+    <!-- Colonne des metrics -->
+    <td width="60%" valign="top">
+      <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" width="48%">
+      <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg" width="48%"><br>
+      <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.leetcode.svg" width="48%">
+      <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg" width="48%">
+    </td>
 
-<p>
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.leetcode.svg" width="48%">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg" width="48%">
-</p>
+    <!-- Colonne de self-intro -->
+    <td width="40%" valign="top">
+      <h3>Hi, I’m LucNIK 👋</h3>
+      <p>
+        Software Engineer & AI/Web3 Developer.<br>
+        Passionate about blockchain, smart contracts, and futuristic tech UI/UX.<br>
+        Always exploring new tools to create animated and interactive GitHub profiles!
+      </p>
+    </td>
+  </tr>
+</table>
 
 
 
