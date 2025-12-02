@@ -35,12 +35,12 @@
 </p>
 
 <p>
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" width="48%">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg" width="48%">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" width="100%">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg" width="100%">
 </p>
 
 <p>
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg" width="48%">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg" width="100%">
 </p>
 
 
