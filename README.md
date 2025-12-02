@@ -34,12 +34,13 @@
   </picture>
 </p>
 
-<p style="display: flex; justify-content: space-between; width: 100%;">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" width="50%" />
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg" width="50%" />
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.leetcode.svg" width="50%" />
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg" width="50%" />
+<p>
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" width="24%">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg" width="24%">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.leetcode.svg" width="24%">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg" width="24%">
 </p>
+
 
 
 
