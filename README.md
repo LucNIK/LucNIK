@@ -34,4 +34,11 @@
   </picture>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" width="24%" />
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg" width="24%" />
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.leetcode.svg" width="24%" />
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg" width="24%" />
+</p>
+
 
