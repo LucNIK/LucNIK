@@ -34,14 +34,12 @@
   </picture>
 </p>
 
-<p  align="center">
-    <picture>
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg">
-        </picture>
+<p align="center" style="width:100%; display:flex; justify-content:center; flex-wrap:wrap;">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/github-metrics.svg" style="flex:1; max-width:25%; height:auto;" alt="GitHub Metrics">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.languages.svg" style="flex:1; max-width:25%; height:auto;" alt="Most Used Languages">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.leetcode.svg" style="flex:1; max-width:25%; height:auto;" alt="LeetCode Statistics">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/metrics.isocalendar.svg" style="flex:1; max-width:25%; height:auto;" alt="Isocalendar Full Year">
 </p>
-
 
 
 
