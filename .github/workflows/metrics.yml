@@ -30,8 +30,8 @@ jobs:
           # === PLUGINS ENABLED ===
           
           # 🗓️ Isocalendar full year
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+           #plugin_isocalendar: yes
+           #plugin_isocalendar_duration: full-year
 
           # 🈷️ Most used languages
           plugin_languages: yes
@@ -42,8 +42,8 @@ jobs:
           plugin_languages_recent_load: 500
 
           # 🌟 Achievements
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
+           #plugin_achievements: yes
+           #plugin_achievements_threshold: C
 
           # ⭐ Stargazers
           plugin_stargazers: yes
@@ -51,12 +51,12 @@ jobs:
           plugin_stargazers_worldmap: no
 
           # 💬 Comment reactions
-          plugin_reactions: yes
+           #plugin_reactions: yes
 
           # 🕹️ Coding habits
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+           #plugin_habits: yes
+           #plugin_habits_facts: yes
+           #plugin_habits_charts: yes
 
       # === COMMIT RESULT ===
       - name: Commit Metrics
