@@ -1,22 +1,34 @@
-name: Generate GitHub Metrics
+name: GitHub Metrics
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # chaque jour à minuit
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Generate metrics
+      - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          output: github-metrics.svg
-          # tu peux ajouter des options ici (plugins, template, etc.)
-          # Most used languages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          filename: github-metrics.svg
+          config: |
+            template: classic
+            base: header, activity, community, repositories, metadata
+
+            plugins:
+              - isocalendar
+              - languages
+              - leetcode
+
+            # IsoCalendar
+            isocalendar:
+              enabled: true
+              duration: full-year
+
+            # Most used languages
             languages:
               enabled: true
               details: bytes-size, percentage
@@ -30,6 +42,3 @@ jobs:
               enabled: true
               user: LucNIK
               sections: solved, skills, recent
-
-
-
