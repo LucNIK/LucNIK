@@ -33,6 +33,52 @@
     <img alt="GitHub Snake" src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-day.gif">
   </picture>
 </p>
-<p widht="50%">
-<img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" alt="GitHub Metrics" />
-</p>
+
+<div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; width: 100%;">
+
+  <!-- Metrics à gauche avec animation -->
+  <div style="flex: 1; min-width: 300px;">
+    <picture>
+      <!-- Mode sombre -->
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg">
+      <!-- Mode clair -->
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg">
+      <img alt="GitHub Metrics" src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg"
+           style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 0 20px rgba(243,186,47,0.5); 
+                  animation: glow 2.5s infinite alternate;">
+    </picture>
+  </div>
+
+  <!-- Self introduction à droite avec animation -->
+  <div style="flex: 1; min-width: 300px; color:#F3BA2F; font-family: 'Courier New', Courier, monospace; 
+              background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); padding: 20px; border-radius: 12px; 
+              box-shadow: 0 0 20px rgba(243,186,47,0.3); animation: glow-text 3s infinite alternate;">
+    <h2 style="margin-top:0;">👋 Hi, I'm <strong>Luc NIK</strong></h2>
+    <p>
+      I am a <strong>Software Engineer & AI/Blockchain Developer</strong>, passionate about 
+      <span style="color:#FF9900;">Web3</span>, smart contracts, and building interactive GitHub profiles.
+    </p>
+    <p>
+      Here you'll find my <span style="color:#FF9900;">projects</span>, <span style="color:#FF9900;">achievements</span>, 
+      and <span style="color:#FF9900;">daily coding activity</span>.  
+      Welcome to my futuristic GitHub!
+    </p>
+  </div>
+
+</div>
+
+<!-- Animations -->
+<style>
+@keyframes glow {
+  0%   { box-shadow: 0 0 10px rgba(243,186,47,0.3), 0 0 20px rgba(243,186,47,0.2); }
+  50%  { box-shadow: 0 0 20px rgba(243,186,47,0.5), 0 0 30px rgba(243,186,47,0.4); }
+  100% { box-shadow: 0 0 10px rgba(243,186,47,0.3), 0 0 20px rgba(243,186,47,0.2); }
+}
+
+@keyframes glow-text {
+  0%   { text-shadow: 0 0 5px #F3BA2F, 0 0 10px rgba(243,186,47,0.3); }
+  50%  { text-shadow: 0 0 10px #F3BA2F, 0 0 20px rgba(243,186,47,0.5); }
+  100% { text-shadow: 0 0 5px #F3BA2F, 0 0 10px rgba(243,186,47,0.3); }
+}
+</style>
+
