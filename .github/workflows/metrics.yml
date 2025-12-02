@@ -12,33 +12,30 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
-          config: |
-            template: classic
-            base: header, activity, community, repositories, metadata
 
-            plugins:
-              - isocalendar
-              - languages
-              - leetcode
+          # Base
+          base: header, activity, community, repositories, metadata
 
-            # IsoCalendar
-            isocalendar:
-              enabled: true
-              duration: full-year
+          # Template
+          template: classic
 
-            # Most used languages
-            languages:
-              enabled: true
-              details: bytes-size, percentage
-              threshold: 1%
-              hide:
-                - html
-                - css
+          # --------------------------
+          # 📌 Plugins activés
+          # --------------------------
 
-            # LeetCode
-            leetcode:
-              enabled: true
-              user: LucNIK
-              sections: solved, skills, recent
+          # IsoCalendar full year
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Languages
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_threshold: 1%
+          plugin_languages_ignored: html, css
+
+          # LeetCode
+          plugin_leetcode: yes
+          plugin_leetcode_user: LucNIK
+          plugin_leetcode_sections: solved, skills, recent
