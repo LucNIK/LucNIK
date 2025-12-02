@@ -1,41 +1,71 @@
-name: GitHub Metrics
+name: GitHub Metrics (Full Pack)
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *" # 2 fois par jour
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Generate GitHub Metrics
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # === GENERATE METRICS FULL ===
+      - name: Generate Metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics.svg
 
-          # Base
-          base: header, activity, community, repositories, metadata
-
-          # Template
+          # OUTPUT
+          filename: dist/github-metrics.svg
           template: classic
+          base: header, activity, community, repositories
+          config_padding: 0, 8, 0, 8
+          config_timezone: Asia/Shanghai
+          optimize: svg
 
-          # --------------------------
-          # 📌 Plugins activés
-          # --------------------------
-
-          # IsoCalendar full year
+          # === PLUGINS ENABLED ===
+          
+          # 🗓️ Isocalendar full year
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Languages
+          # 🈷️ Most used languages
           plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_threshold: 1%
           plugin_languages_ignored: html, css
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 500
 
-          # LeetCode
+          # 🎓 LeetCode stats
           plugin_leetcode: yes
-          plugin_leetcode_user: LucNIK
           plugin_leetcode_sections: solved, skills, recent
+          plugin_leetcode_limit_recent: 5
+
+          # 🌟 Achievements
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+
+          # ⭐ Stargazers
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_worldmap: no
+
+          # 💬 Comment reactions
+          plugin_reactions: yes
+
+          # 🕹️ Coding habits
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+      # === COMMIT RESULT ===
+      - name: Commit Metrics
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update GitHub Metrics"
+          file_pattern: dist/github-metrics.svg
