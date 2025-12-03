@@ -35,5 +35,16 @@
 </p>
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="50%">
+  <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="50%">🌐 Let's Connect and Grow Together!
+LinkedIn YouTube Instagram
+
+✨ Fun Facts
+I love Hackathons, Swimming and Tennis.
+I’m on a journey to build a big house in Alaska!
+I enjoy creating content for my YouTube channel, where I share coding tutorials and project walkthroughs.
+In my free time, I explore the beauty of nature and capture it through my photography on Instagram.
+🧑‍💻 About Me
+I'm a passionate software developer with a strong background in cloud computing, game development, and full-stack web development. I have a keen interest in solving complex problems and building scalable solutions. When I'm not coding, you can find me engaged in physical activities like swimming and judo, or planning my next adventure.
+
+My journey in tech has led me to work with various cutting-edge technologies and collaborate with amazing teams across different projects. I’m always eager to learn new things and share my knowledge with the community through my YouTube.
 </p>
