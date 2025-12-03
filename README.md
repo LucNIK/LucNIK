@@ -45,8 +45,6 @@
 [LinkedIn](#) | [YouTube](#) | [Instagram](#) |
 
 </p>
-
-    </td>
   </tr>
 </table>
 
