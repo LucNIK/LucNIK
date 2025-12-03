@@ -34,7 +34,11 @@
   </picture>
 </p>
 
+<p align="center">
+
 | 📊 Metrics | 📝 About Me |
 |-----------|-------------|
-| <div align="center"><img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="500"/></div> | 🌐 **Let's Connect and Grow Together!**  
-[LinkedIn](#) | [YouTube](#) | [Instagram](#)|
+| <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="500"/> | 🌐 **Let's Connect and Grow Together!**  
+[LinkedIn](#) | [YouTube](#) | [Instagram](#) |
+
+</p>
