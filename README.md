@@ -36,17 +36,5 @@
 
 | 📊 Metrics | 📝 About Me |
 |-----------|-------------|
-| <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="300"/> | 🌐 **I am a passionate Software Engineer specializing in AI, Blockchain, Machine Learning, and Web3 development. I love building innovative solutions that combine cutting-edge technologies with practical impact.
-
-I enjoy collaborating on exciting projects, contributing to open-source initiatives, and continuously learning new skills in the fast-evolving world of tech.
-
-🚀 Areas of Interest & Expertise:
-
-Artificial Intelligence & Machine Learning
-
-Blockchain & Web3 Applications
-
-Full-Stack Web Development
-
-Open to collaborations and innovative projects**  
-[LinkedIn](#) | [YouTube](#) | [Instagram](#)  |
+| <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="300"/> | 🌐 **Let's Connect and Grow Together!**  
+[LinkedIn](#) | [YouTube](#) | [Instagram](#)|
