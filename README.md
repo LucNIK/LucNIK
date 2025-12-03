@@ -37,11 +37,10 @@
 <table align="justify">
   <tr>
     <td>
-      📊 Metrics<br>
+      | 📊 Metrics | 📝 About Me |
       <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="600"/>
     </td>
     <td>
-      📝 About Me<br>
       🌐 <b>Let's Connect and Grow Together!</b><br>
       <a href="#">LinkedIn</a> | <a href="#">YouTube</a> | <a href="#">Instagram</a>
     </td>
