@@ -38,7 +38,7 @@
   <tr>
     <td>
       📊 Metrics<br>
-      <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="300"/>
+      <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="500"/>
     </td>
     <td>
       📝 About Me<br>
