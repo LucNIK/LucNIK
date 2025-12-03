@@ -34,11 +34,17 @@
   </picture>
 </p>
 
-<p align="center">
+<table align="center">
+  <tr>
+    <td>
+      📊 Metrics<br>
+      <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="500"/>
+    </td>
+    <td>
+      📝 About Me<br>
+      🌐 <b>Let's Connect and Grow Together!</b><br>
+      <a href="#">LinkedIn</a> | <a href="#">YouTube</a> | <a href="#">Instagram</a>
+    </td>
+  </tr>
+</table>
 
-| 📊 Metrics | 📝 About Me |
-|-----------|-------------|
-| <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="500"/> | 🌐 **Let's Connect and Grow Together!**  
-[LinkedIn](#) | [YouTube](#) | [Instagram](#) |
-
-</p>
