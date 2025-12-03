@@ -36,18 +36,17 @@
 
 | 📊 Metrics | 📝 About Me |
 |-----------|-------------|
-| <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="300"/> | 🌐 **Let's Connect and Grow Together!**  
-[LinkedIn](#) | [YouTube](#) | [Instagram](#)  
+| <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="300"/> | 🌐 **I am a passionate Software Engineer specializing in AI, Blockchain, Machine Learning, and Web3 development. I love building innovative solutions that combine cutting-edge technologies with practical impact.
 
-✨ **Fun Facts**  
-- 🏆 I love Hackathons, Swimming and Tennis  
-- 🏠 I’m on a journey to build a big house in Alaska!  
-- 🎥 I enjoy creating content for my YouTube channel, sharing coding tutorials and project walkthroughs  
-- 🌄 I explore the beauty of nature and capture it through my photography on Instagram  
+I enjoy collaborating on exciting projects, contributing to open-source initiatives, and continuously learning new skills in the fast-evolving world of tech.
 
-🧑‍💻 **About Me**  
-I'm a passionate software developer with expertise in cloud computing, game development, and full-stack web development. I love solving complex problems and building scalable solutions.  
+🚀 Areas of Interest & Expertise:
 
-When I'm not coding, you can find me swimming, practicing judo, or planning my next adventure.  
+Artificial Intelligence & Machine Learning
 
-💡 My journey in tech has led me to work with cutting-edge technologies and collaborate with amazing teams across different projects. I’m always eager to learn new things and share knowledge with the community through YouTube. |
+Blockchain & Web3 Applications
+
+Full-Stack Web Development
+
+Open to collaborations and innovative projects**  
+[LinkedIn](#) | [YouTube](#) | [Instagram](#)  |
