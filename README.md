@@ -34,11 +34,11 @@
   </picture>
 </p>
 
-<table align="center">
+<table align="justify">
   <tr>
     <td>
       📊 Metrics<br>
-      <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="450"/>
+      <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="300"/>
     </td>
     <td>
       📝 About Me<br>
