@@ -36,5 +36,5 @@
 
 | 📊 Metrics | 📝 About Me |
 |-----------|-------------|
-| <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="600"/> | 🌐 **Let's Connect and Grow Together!**  
+| <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="500"/> | 🌐 **Let's Connect and Grow Together!**  
 [LinkedIn](#) | [YouTube](#) | [Instagram](#)|
