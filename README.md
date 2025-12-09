@@ -33,18 +33,3 @@
     <img alt="GitHub Snake" src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-day.gif">
   </picture>
 </p>
-
-<table align="justify">
-  <tr>
-    <td>
-      <p align="center">
-
-| 📊 Metrics | 📝 About Me |
-|-----------|-------------|
-| <img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" width="500"/> | 🌐 **Let's Connect and Grow Together!**  
-[LinkedIn](#) | [YouTube](#) | [Instagram](#) |
-
-</p>
-  </tr>
-</table>
-
