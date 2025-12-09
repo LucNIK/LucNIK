@@ -2,12 +2,13 @@ name: GitHub Snake
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Exécute tous les jours à minuit UTC
+    - cron: '0 0 * * *' # Exécution quotidienne à minuit UTC
   workflow_dispatch: # Permet de lancer manuellement
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -17,10 +18,12 @@ jobs:
         with:
           github_user_name: LucNIK
           outputs: |
+            # Mode clair (jour)
             dist/github-snake-light.svg?color_snake=blue&color_dots=#d0f0ff,#a0dfff,#70cfff,#40bfff,#009fff&color_background=#ffffff
+            # Mode sombre (nuit)
             dist/github-snake-dark.svg?color_snake=yellow&color_dots=#ffdede,#ffbebe,#ff7f7f,#ff4c4c,#ff0000&color_background=#000000
 
-      - name: Commit Snake
+      - name: Commit updated Snake
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
