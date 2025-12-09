@@ -1,35 +1,31 @@
-name: GitHub Snake GIF Colorized
+name: GitHub Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    # Exécute tous les jours à 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # permet de lancer manuellement
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      # Snake + activités jaune Binance (jour)
-      - name: Generate GitHub Snake GIF (day)
+      - name: Generate GitHub Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-day.gif?color_snake=%23F3BA2F&color_dots=%23CCCCCC,%23F3BA2F,%23F3BA2F,%23F3BA2F,%23F3BA2F&color_background=%23FFFFFF
+          github_user_name: LucNIK
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#aaaaaa
 
-      # Snake + activités rouge bordeaux (nuit)
-      - name: Generate GitHub Snake GIF (night)
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-night.gif?color_snake=%23800020&color_dots=%23444444,%23800020,%23800020,%23800020,%23800020&color_background=%23000000
-
-      - name: Commit generated GIFs
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Add colorized GitHub Snake GIFs"
-          branch: main
-          file_pattern: dist/
+      - name: Commit Snake
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add dist/*
+          git commit -m "Update GitHub Snake" || echo "No changes to commit"
+          git push
