@@ -19,9 +19,9 @@ jobs:
           github_user_name: LucNIK
           outputs: |
             # Mode clair (jour)
-            dist/github-snake-light.svg?color_snake=blue&color_dots=#d0f0ff,#a0dfff,#70cfff,#40bfff,#009fff&color_background=#ffffff
+            dist/github-snake-light.svg?color_snake=#F3BA2F&color_dots=#eeeeee,#dddddd,#cccccc,#bbbbbb,#aaaaaa&color_background=#ffffff
             # Mode sombre (nuit)
-            dist/github-snake-dark.svg?color_snake=yellow&color_dots=#ffdede,#ffbebe,#ff7f7f,#ff4c4c,#ff0000&color_background=#000000
+            dist/github-snake-dark.svg?color_snake=#800020&color_dots=#aa0011,#990011,#880011,#770011,#660011&color_background=#ffffff
 
       - name: Commit updated Snake
         run: |
