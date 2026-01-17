@@ -27,6 +27,14 @@
 <p align="center">
   <picture>
     <!-- Mode sombre -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://nikabou.com">
+  </picture>
+</p>
+
+
+<p align="center">
+  <picture>
+    <!-- Mode sombre -->
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-dark.svg">
     <!-- Mode clair -->
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-light.svg">
