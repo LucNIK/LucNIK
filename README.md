@@ -6,6 +6,7 @@
 
 <p align="right">
   <picture>
+     <source srcset="https://www.nikabou.com" />
     <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=LucNIK&label=%F0%9F%91%81+PROFILE&color=800020&style=for-the-badge" />
     <source media="(prefers-color-scheme: light)" srcset="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=for-the-badge" />
     <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=LucNIK&label=PROFILE+VIEWS&color=F3BA2F&style=for-the-badge" />
