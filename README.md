@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="https://nikabou.com" target="_blank">
+    <img
+      src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/assets/banner.gif"
+      alt="Visit my website"
+      width="100%"
+    />
+  </a>
+</p>
 <!-- ====== DARK HACKER BANNER WILL BE INSERTED HERE ====== -->
 <!-- ====== All rights reserved to John Luke NIKABOU | 2025 ====== -->
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
