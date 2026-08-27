@@ -23,8 +23,3 @@
     <img alt="GitHub Snake" src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-light.svg">
   </picture>
 </p>
-
-
-
-
-#Thanks
