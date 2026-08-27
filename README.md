@@ -12,10 +12,6 @@
 <h1 align="center">👋 Hi, I'm <strong>Luc NIK</strong></h1>
 
 
-<p align="center">
-🧠 Tech Stack
-</p>
-
 
 
 <p align="center">
