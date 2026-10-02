@@ -63,6 +63,20 @@
 <br><br>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/output/heading-activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/output/heading-activity-light.svg">
+  <img alt="Activity" src="https://raw.githubusercontent.com/LucNIK/LucNIK/output/heading-activity-light.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/output/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/output/activity-light.svg">
+  <img alt="Recent projects and latest GitHub activity" src="https://raw.githubusercontent.com/LucNIK/LucNIK/output/activity-light.svg">
+</picture>
+
+<br><br>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/output/heading-markets-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/output/heading-markets-light.svg">
   <img alt="Markets" src="https://raw.githubusercontent.com/LucNIK/LucNIK/output/heading-markets-light.svg">

@@ -15,7 +15,7 @@ dark_accent = "#C1121F"    # bordeaux, by night
 lines = ["Luc NIK", "Software Engineer", "AI/ML · FinTech · Web3", "Python · TypeScript · Cloud"]
 
 [headings]
-titles = ["About", "Focus", "Markets", "This Week"]
+titles = ["About", "Focus", "Activity", "Markets", "This Week"]
 
 [[focus.items]]
 title = "AI / ML"
@@ -36,6 +36,14 @@ icon = "ethereum"
 title = "Cloud"
 lines = ["Scalable infrastructure", "automation & CI/CD"]
 icon = "cloud"
+
+[activity]
+enabled = true
+repos = 3            # recent projects shown (forks, archived and the profile repo are skipped)
+events = 5           # latest public GitHub events
+exclude_repos = []
+rss = ""             # optional RSS/Atom feed, e.g. "https://ayuefu.com/rss.xml"
+posts = 3
 
 [ticker]
 currency = "usd"
