@@ -1,51 +1,82 @@
 <!-- All rights reserved to John Luke NIKABOU | 2025 -->
 
-<h1 align="center">Hi, I'm Luc NIK 👋</h1>
+<div align="center">
 
-<p align="center">
-  <strong>Developer · Builder</strong>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-light.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-dark.svg" width="100%">
+</picture>
 
-<p align="center">
-  <a href="https://ayuefu.com"><img alt="Website" src="https://img.shields.io/badge/website-ayuefu.com-F3BA2F?style=for-the-badge&logo=googlechrome&logoColor=black"></a>
-  <a href="https://github.com/LucNIK"><img alt="GitHub followers" src="https://img.shields.io/github/followers/LucNIK?style=for-the-badge&logo=github&color=8B0000"></a>
-</p>
+<br><br>
 
----
-
-## About me
-
-I build software, mostly with **Python**, and I like turning ideas into products people can actually use.
-This profile is where I share what I'm working on — check out my repositories below, or visit
-[nikabou.com](https://ayuefu.com) to learn more about me and my work.
-
-## Tech stack
+<a href="https://ayuefu.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=720&height=60&lines=LUC+NIK;SOFTWARE+ENGINEER;AI%2FML+%C2%B7+FINTECH+%C2%B7+WEB3;PYTHON+%C2%B7+TYPESCRIPT+%C2%B7+CLOUD" alt="Luc NIK — Software Engineer">
+</a>
 
 <p>
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+  <code>Software Engineer</code>&nbsp;·&nbsp;<code>AI / ML</code>&nbsp;·&nbsp;<code>FinTech</code>&nbsp;·&nbsp;<code>Web3</code>&nbsp;·&nbsp;<code>Python · TypeScript · Cloud</code>&nbsp;🌍
 </p>
 
-## GitHub stats
-
-<p align="center">
-  <img alt="GitHub metrics" src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg">
+<p>
+  <a href="https://ayuefu.com"><img alt="Website" src="https://img.shields.io/badge/AYUEFU.COM-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00E5FF&labelColor=0D1117&color=0D1117"></a>
+  <a href="https://github.com/LucNIK?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/LucNIK?style=for-the-badge&logo=github&logoColor=00E5FF&label=FOLLOWERS&labelColor=0D1117&color=00E5FF"></a>
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=LucNIK&style=for-the-badge&label=PROFILE+VIEWS&color=00E5FF&labelColor=0D1117">
 </p>
 
-## Contributions
+<br>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-light.svg">
-    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-snake-light.svg">
-  </picture>
+<h3>◢ &nbsp;A B O U T&nbsp; ◣</h3>
+
+<p>
+  I'm a software engineer building at the intersection of <b>artificial intelligence</b>, <b>finance</b> and <b>decentralized systems</b>.<br>
+  I work mostly with <b>Python</b> and <b>TypeScript</b>, deploy on the <b>cloud</b>, and focus on turning ideas into products people actually use.<br>
+  Explore my repositories below, or visit <a href="https://ayuefu.com"><b>ayuefu.com</b></a> to learn more about me and my work.
 </p>
 
----
+<br>
 
-<p align="center">
-  <sub>Stats and snake are refreshed automatically by GitHub Actions.</sub>
-</p>
+<h3>◢ &nbsp;F O C U S&nbsp; ◣</h3>
+
+<table>
+  <tr>
+    <td align="center" width="180"><b>🧠 AI / ML</b><br><sub>Models · data pipelines<br>intelligent applications</sub></td>
+    <td align="center" width="180"><b>💹 FinTech</b><br><sub>Financial products<br>trading &amp; payments</sub></td>
+    <td align="center" width="180"><b>⛓️ Web3</b><br><sub>Blockchain · smart contracts<br>decentralized apps</sub></td>
+    <td align="center" width="180"><b>☁️ Cloud</b><br><sub>Scalable infrastructure<br>automation &amp; CI/CD</sub></td>
+  </tr>
+</table>
+
+<br>
+
+<h3>◢ &nbsp;S T A C K&nbsp; ◣</h3>
+
+<img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,git,github,githubactions&theme=dark" alt="Tech stack">
+
+<br><br>
+
+<h3>◢ &nbsp;L A N G U A G E S&nbsp; ◣</h3>
+
+<sub>Computed from all my repositories, refreshed automatically</sub>
+<br><br>
+<img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-languages.svg" alt="Most used languages across all repositories">
+
+<br><br>
+
+<h3>◢ &nbsp;S T A T S&nbsp; ◣</h3>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=LucNIK&hide_border=true&background=0D1117&ring=00E5FF&fire=00E5FF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00E5FF&sideLabels=8B949E&dates=8B949E&stroke=21262D">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=LucNIK&hide_border=true&ring=0077FF&fire=0077FF&currStreakLabel=0077FF">
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com/?user=LucNIK&hide_border=true&background=0D1117&ring=00E5FF&fire=00E5FF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00E5FF&sideLabels=8B949E&dates=8B949E&stroke=21262D">
+</picture>
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-metrics.svg" alt="GitHub activity and contribution metrics">
+
+<br><br>
+
+<sub>⟨ snake · languages · metrics are regenerated by GitHub Actions from live GitHub data ⟩</sub>
+
+</div>

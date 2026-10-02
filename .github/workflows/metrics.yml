@@ -1,9 +1,12 @@
-name: GitHub Metrics (Minimal)
+name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # deux fois par jour
+    - cron: "0 */12 * * *" # twice a day
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/metrics.yml"]
 
 permissions:
   contents: write
@@ -16,40 +19,39 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate Minimal GitHub Metrics
+      # Languages across ALL repositories owned by LucNIK (private ones included with a repo-scoped token)
+      - name: Languages card
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          user: LucNIK
+          filename: dist/github-languages.svg
+          template: classic
+          committer_message: "Update ${filename}"
+          base: ""
+          config_timezone: Asia/Shanghai
+          config_padding: 0,8,0,8
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage, bytes-size
+          plugin_languages_limit: 12
+          plugin_languages_threshold: 0%
+          plugin_languages_colors: github
 
-          # OUTPUT
+      # Activity, community, repositories and full-year contribution calendar
+      - name: Stats card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: LucNIK
           filename: dist/github-metrics.svg
           template: classic
+          committer_message: "Update ${filename}"
           base: header, activity, community, repositories
-          config_padding: 0,8,0,8
           config_timezone: Asia/Shanghai
-          optimize: svg
-
-          # === PLUGINS ACTIVÉS ===
-          # Most used languages
-          plugin_languages: yes
-          plugin_languages_ignored: html,css
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 8
-          plugin_languages_recent_days: 30
-          plugin_languages_recent_load: 500
-
-          # Stargazers
+          config_padding: 0,8,0,8
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
           plugin_stargazers_worldmap: no
-
-          # Isocalendar Full Year (optionnel)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-      - name: Commit Metrics
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update Minimal GitHub Metrics"
-          file_pattern: dist/github-metrics.svg
-          branch: main
