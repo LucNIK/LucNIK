@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       # Keep the previous render (engine state, font cache, last Pac-Man) between runs.
       - name: Restore previous output
@@ -52,7 +52,7 @@ jobs:
           game_process_issues: "true"
 
       - name: Publish to the output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist

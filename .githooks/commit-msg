@@ -1,0 +1,13 @@
+#!/bin/sh
+# Copyright (c) 2026 John Luke NIKABOU (LucNIK). Commit policy: single maintainer, signed commits.
+# One author only: no co-author trailers, no tool or session trailers in commit messages.
+msg_file="$1"
+if grep -qiE '^[[:space:]]*co-authored-by:' "$msg_file"; then
+  echo "commit refused (R2): Co-Authored-By trailers are not allowed in this repository." >&2
+  exit 1
+fi
+if grep -qiE '^[[:space:]]*[a-z0-9-]*session[a-z0-9-]*:' "$msg_file"; then
+  echo "commit refused (R2): tool or session trailers are not allowed in this repository." >&2
+  exit 1
+fi
+exit 0

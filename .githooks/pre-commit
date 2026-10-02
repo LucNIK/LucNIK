@@ -1,0 +1,12 @@
+#!/bin/sh
+# Copyright (c) 2026 John Luke NIKABOU (LucNIK). Commit policy: single maintainer, signed commits.
+# Every commit is authored and committed by LucNIK <lukepulanka@gmail.com>.
+expected="LucNIK <lukepulanka@gmail.com>"
+for who in GIT_AUTHOR_IDENT GIT_COMMITTER_IDENT; do
+  ident=$(git var "$who" | sed 's/ [0-9]* [-+][0-9]*$//')
+  if [ "$ident" != "$expected" ]; then
+    echo "commit refused (R1): $who is '$ident', expected '$expected'." >&2
+    exit 1
+  fi
+done
+exit 0

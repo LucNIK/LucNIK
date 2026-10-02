@@ -1,0 +1,3 @@
+#!/bin/sh
+# Copyright (c) 2026 John Luke NIKABOU (LucNIK). Same rules as commit-msg, for patches applied with git am.
+exec "$(dirname "$0")/commit-msg" "$@"

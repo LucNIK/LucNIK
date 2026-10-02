@@ -1,0 +1,9 @@
+#!/bin/sh
+# Copyright (c) 2026 John Luke NIKABOU (LucNIK). Same rule as pre-commit (R1), for patches applied with git am:
+# the patch author is read from the patch being applied.
+script="$(git rev-parse --git-path rebase-apply/author-script)"
+if [ -f "$script" ]; then
+  . "$script"
+  export GIT_AUTHOR_NAME GIT_AUTHOR_EMAIL GIT_AUTHOR_DATE
+fi
+exec "$(dirname "$0")/pre-commit"
