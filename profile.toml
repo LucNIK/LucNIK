@@ -1,9 +1,12 @@
+# Copyright (c) 2025-2026 John Luke NIKABOU (LucNIK). All rights reserved.
+
 # profile-engine configuration — every visual is rendered in a light (day) and a dark (night) version.
 
 [profile]
 user = "LucNIK"
 name = "Luc NIK"
 website = "https://ayuefu.com"
+copyright = "© 2025-2026 John Luke NIKABOU (LucNIK). All rights reserved."
 timezone = "Asia/Shanghai"
 
 [theme]

@@ -1,4 +1,4 @@
-<!-- All rights reserved to John Luke NIKABOU | 2025 -->
+<!-- Copyright (c) 2025-2026 John Luke NIKABOU (LucNIK). All rights reserved. -->
 <!-- Every image below is rendered hourly by my own GitHub Action: https://github.com/LucNIK/profile-engine -->
 
 <div align="center">
