@@ -60,10 +60,10 @@
 
 <table>
   <tr>
-    <td align="center" width="180"><b>AI / ML</b><br><sub>Models · data pipelines<br>intelligent applications</sub></td>
-    <td align="center" width="180"><b>FinTech</b><br><sub>Financial products<br>trading &amp; payments</sub></td>
-    <td align="center" width="180"><b>Web3</b><br><sub>Blockchain · smart contracts<br>decentralized apps</sub></td>
-    <td align="center" width="180"><b>Cloud</b><br><sub>Scalable infrastructure<br>automation &amp; CI/CD</sub></td>
+    <td align="center" width="180"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/tabler/brain.svg?color=%23C1121F&height=44"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/tabler/brain.svg?color=%23B7860B&height=44"><img alt="AI / ML" src="https://api.iconify.design/tabler/brain.svg?color=%23B7860B&height=44" height="44"></picture><br><b>AI / ML</b><br><sub>Models · data pipelines<br>intelligent applications</sub></td>
+    <td align="center" width="180"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/tabler/chart-candle.svg?color=%23C1121F&height=44"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/tabler/chart-candle.svg?color=%23B7860B&height=44"><img alt="FinTech" src="https://api.iconify.design/tabler/chart-candle.svg?color=%23B7860B&height=44" height="44"></picture><br><b>FinTech</b><br><sub>Financial products<br>trading &amp; payments</sub></td>
+    <td align="center" width="180"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/tabler/hexagons.svg?color=%23C1121F&height=44"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/tabler/hexagons.svg?color=%23B7860B&height=44"><img alt="Web3" src="https://api.iconify.design/tabler/hexagons.svg?color=%23B7860B&height=44" height="44"></picture><br><b>Web3</b><br><sub>Blockchain · smart contracts<br>decentralized apps</sub></td>
+    <td align="center" width="180"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/tabler/cloud-computing.svg?color=%23C1121F&height=44"><source media="(prefers-color-scheme: light)" srcset="https://api.iconify.design/tabler/cloud-computing.svg?color=%23B7860B&height=44"><img alt="Cloud" src="https://api.iconify.design/tabler/cloud-computing.svg?color=%23B7860B&height=44" height="44"></picture><br><b>Cloud</b><br><sub>Scalable infrastructure<br>automation &amp; CI/CD</sub></td>
   </tr>
 </table>
 
