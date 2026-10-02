@@ -1,0 +1,51 @@
+# profile-engine configuration — every visual is rendered in a light (day) and a dark (night) version.
+
+[profile]
+user = "LucNIK"
+name = "Luc NIK"
+website = "https://ayuefu.com"
+timezone = "Asia/Shanghai"
+
+[theme]
+font = "IBM Plex Sans"
+light_accent = "#B7860B"   # gold, by day
+dark_accent = "#C1121F"    # bordeaux, by night
+
+[hero]
+lines = ["Luc NIK", "Software Engineer", "AI/ML · FinTech · Web3", "Python · TypeScript · Cloud"]
+
+[headings]
+titles = ["About", "Focus", "Markets", "This Week"]
+
+[[focus.items]]
+title = "AI / ML"
+lines = ["Models · data pipelines", "intelligent applications"]
+icon = "network"
+
+[[focus.items]]
+title = "FinTech"
+lines = ["Financial products", "trading & payments"]
+icon = "candles"
+
+[[focus.items]]
+title = "Web3"
+lines = ["Blockchain · smart contracts", "decentralized apps"]
+icon = "ethereum"
+
+[[focus.items]]
+title = "Cloud"
+lines = ["Scalable infrastructure", "automation & CI/CD"]
+icon = "cloud"
+
+[ticker]
+currency = "usd"
+gas = true
+assets = [
+  { id = "bitcoin", symbol = "BTC", name = "Bitcoin" },
+  { id = "ethereum", symbol = "ETH", name = "Ethereum" },
+]
+
+[weekly]
+enabled = true
+model = "openai/gpt-4.1-mini"
+exclude_repos = []

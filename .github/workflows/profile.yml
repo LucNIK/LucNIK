@@ -1,0 +1,61 @@
+name: Profile
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # hourly — live markets ticker
+    - cron: "0 0 * * *"   # daily — Pac-Man contribution graph
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["profile.toml", ".github/workflows/profile.yml"]
+
+permissions:
+  contents: write   # publish the rendered SVGs to the output branch
+  models: read      # weekly AI summary through GitHub Models
+
+concurrency:
+  group: profile
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      # Keep the previous render (engine state, font cache, last Pac-Man) between runs.
+      - name: Restore previous output
+        run: |
+          mkdir -p .prev dist
+          if git fetch --depth=1 origin output; then git archive FETCH_HEAD | tar -x -C .prev; fi
+
+      - name: Pac-Man contribution graph
+        if: github.event_name != 'schedule' || github.event.schedule == '0 0 * * *'
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: LucNIK
+          games: pacman
+          player_style: opportunistic
+
+      - name: Merge previous output
+        run: cp -rn .prev/. dist/
+
+      - name: Render profile
+        uses: LucNIK/profile-engine@v1
+        with:
+          config: profile.toml
+          output_dir: dist
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+          author: LucNIK <lukepulanka@gmail.com>
+          committer: LucNIK <lukepulanka@gmail.com>
+          commit_message: "Render profile"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
