@@ -5,13 +5,16 @@ on:
     - cron: "0 */12 * * *" # deux fois par jour
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate Minimal GitHub Metrics
         uses: lowlighter/metrics@latest
@@ -45,7 +48,7 @@ jobs:
           plugin_isocalendar_duration: full-year
 
       - name: Commit Metrics
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Minimal GitHub Metrics"
           file_pattern: dist/github-metrics.svg

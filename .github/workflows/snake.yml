@@ -5,13 +5,16 @@ on:
     - cron: '0 0 * * *' # Exécution quotidienne à minuit UTC
   workflow_dispatch: # Permet de lancer manuellement
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate GitHub Snake
         uses: Platane/snk@v3
