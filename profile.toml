@@ -18,7 +18,7 @@ dark_accent = "#C1121F"    # bordeaux, by night
 lines = ["Luc NIK", "Software Engineer", "AI/ML · FinTech · Web3", "Python · TypeScript · Cloud"]
 
 [headings]
-titles = ["About", "Focus", "Activity", "Markets", "This Week"]
+titles = ["About", "Focus", "Play", "Activity", "Markets", "This Week"]
 
 [[focus.items]]
 title = "AI / ML"
@@ -39,6 +39,11 @@ icon = "ethereum"
 title = "Cloud"
 lines = ["Scalable infrastructure", "automation & CI/CD"]
 icon = "cloud"
+
+[game]
+enabled = true
+repo = "LucNIK/LucNIK"   # where move issues are opened
+depth = 6                # engine strength: plies searched by minimax (1-8)
 
 [activity]
 enabled = true

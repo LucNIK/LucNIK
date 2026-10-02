@@ -14,6 +14,7 @@ on:
 permissions:
   contents: write   # publish the rendered SVGs to the output branch
   models: read      # weekly AI summary through GitHub Models
+  issues: write     # safety net: answer any Connect Four move the game workflow missed
 
 concurrency:
   group: profile
@@ -48,6 +49,7 @@ jobs:
         with:
           config: profile.toml
           output_dir: dist
+          game_process_issues: "true"
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4

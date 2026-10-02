@@ -1,0 +1,50 @@
+# Copyright (c) 2025-2026 John Luke NIKABOU (LucNIK). All rights reserved.
+
+name: Connect Four
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write   # publish the new board to the output branch
+  issues: write     # reply to and close move issues
+
+concurrency:
+  group: profile    # shared with the Profile workflow: only one run writes the output branch at a time
+  cancel-in-progress: false
+
+jobs:
+  move:
+    # The issue title is untrusted input: it is only compared here and parsed strictly by the engine.
+    if: startsWith(github.event.issue.title, 'connect4')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore previous output
+        run: |
+          mkdir -p dist
+          if git fetch --depth=1 origin output; then git archive FETCH_HEAD | tar -x -C dist; fi
+
+      - name: Play every open move
+        uses: LucNIK/profile-engine@v1
+        with:
+          config: profile.toml
+          output_dir: dist
+          modules: game
+          game_process_issues: "true"
+
+      - name: Publish the board
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+          author: LucNIK <lukepulanka@gmail.com>
+          committer: LucNIK <lukepulanka@gmail.com>
+          commit_message: "Play Connect Four"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
