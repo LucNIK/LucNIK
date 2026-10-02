@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://nikabou.com"><img alt="Website" src="https://img.shields.io/badge/website-nikabou.com-F3BA2F?style=for-the-badge&logo=googlechrome&logoColor=black"></a>
+  <a href="https://ayuefu.com"><img alt="Website" src="https://img.shields.io/badge/website-ayuefu.com-F3BA2F?style=for-the-badge&logo=googlechrome&logoColor=black"></a>
   <a href="https://github.com/LucNIK"><img alt="GitHub followers" src="https://img.shields.io/github/followers/LucNIK?style=for-the-badge&logo=github&color=8B0000"></a>
 </p>
 
@@ -15,9 +15,9 @@
 
 ## About me
 
-I build software, mostly with **JavaScript**, and I like turning ideas into products people can actually use.
+I build software, mostly with **Python**, and I like turning ideas into products people can actually use.
 This profile is where I share what I'm working on — check out my repositories below, or visit
-[nikabou.com](https://nikabou.com) to learn more about me and my work.
+[nikabou.com](https://ayuefu.com) to learn more about me and my work.
 
 ## Tech stack
 
