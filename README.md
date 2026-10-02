@@ -67,28 +67,4 @@
   </tr>
 </table>
 
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=20&color=C1121F&center=true&vCenter=true&width=420&height=40&duration=1&pause=100000&repeat=false&lines=STACK">
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=20&color=B7860B&center=true&vCenter=true&width=420&height=40&duration=1&pause=100000&repeat=false&lines=STACK">
-  <img alt="STACK" src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=20&color=B7860B&center=true&vCenter=true&width=420&height=40&duration=1&pause=100000&repeat=false&lines=STACK">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,nodejs,git,github,githubactions&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,js,nodejs,git,github,githubactions&theme=light">
-  <img alt="Tech stack" src="https://skillicons.dev/icons?i=python,ts,js,nodejs,git,github,githubactions&theme=light">
-</picture>
-
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=20&color=C1121F&center=true&vCenter=true&width=420&height=40&duration=1&pause=100000&repeat=false&lines=LANGUAGES">
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=20&color=B7860B&center=true&vCenter=true&width=420&height=40&duration=1&pause=100000&repeat=false&lines=LANGUAGES">
-  <img alt="LANGUAGES" src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&weight=600&size=20&color=B7860B&center=true&vCenter=true&width=420&height=40&duration=1&pause=100000&repeat=false&lines=LANGUAGES">
-</picture>
-
-<img src="https://raw.githubusercontent.com/LucNIK/LucNIK/main/dist/github-languages.svg" alt="Most used languages across all repositories">
-
 </div>
